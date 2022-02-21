@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kata: Simple Fun #1: Seats in Theater</title>
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <h1>Kata: Simple Fun #1: Seats in Theater</h1>
+    <h2>Open the console...</h2>
+    <p>
+      Task<br />
+      <br />
+      Your friend advised you to see a new performance in the most popular
+      theater in the <br />
+      city. He knows a lot about art and his advice is usually good, but not
+      this time: <br />
+      the performance turned out to be awfully dull. It's so bad you want to
+      sneak out, <br />
+      which is quite simple, especially since the exit is located right behind
+      your row <br />
+      to the left. All you need to do is climb over your seat and make your way
+      to the exit.<br />
+      <br />
+      The main problem is your shyness: you're afraid that you'll end up
+      blocking the <br />
+      view (even if only for a couple of seconds) of all the people who sit
+      behind you <br />
+      and in your column or the columns to your left. To gain some courage, you
+      decide <br />
+      to calculate the number of such people and see if you can possibly make it
+      to <br />
+      the exit without disturbing too many people.<br />
+      <br />
+      Given the total number of rows and columns in the theater (nRows and
+      nCols, <br />
+      respectively), and the row and column you're sitting in, return the number
+      <br />
+      of people who sit strictly behind you and in your column or to the left,
+      <br />
+      assuming all seats are occupied.<br />
+      <br />
+      Example<br />
+      For nCols = 16, nRows = 11, col = 5 and row = 3, the output should be<br />
+      <br />
+      seatsInTheater(nCols, nRows, col, row) === 96<br />
+      Here is what the theater looks like:<br />
+      <br />
+
+      Input/Output<br />
+      [input] integer nCols<br />
+      <br />
+      An integer, the number of theater's columns.<br />
+      <br />
+      Constraints: 1 ≤ nCols ≤ 1000.<br />
+      <br />
+      [input] integer nRows<br />
+      <br />
+      An integer, the number of theater's rows.<br />
+      <br />
+      Constraints: 1 ≤ nRows ≤ 1000.<br />
+      <br />
+      [input] integer col<br />
+      <br />
+      An integer, the column number of your own seat (with the rightmost column
+      having <br />
+      index 1).<br />
+      <br />
+      Constraints: 1 ≤ col ≤ nCols.<br />
+      <br />
+      [input] integer row<br />
+      <br />
+      An integer, the row number of your own seat (with the front row having
+      index 1).<br />
+      <br />
+      Constraints: 1 ≤ row ≤ nRows.<br />
+      <br />
+      [output] an integer<br />
+      The number of people who sit strictly behind you and in your column or to
+      the left.<br />
+    </p>
+  </body>
+</html>
